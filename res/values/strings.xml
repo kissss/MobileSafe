@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">手机卫士</string>
+    <string name="hello">HelloWorld</string>
+    <!-- 公用的button信息 -->
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_next">下一步</string>
+    <string name="button_previous">上一步</string>
+    <string name="button_finish">设置完成</string>
+    <string name="main_screen">主界面</string>
+    <string name="mainscreen_tv_title">手机卫士</string>
+    <string name="mainscreen_item_tv_hint">功能名称</string>
+    <string name="mainscreen_item_iv_contentDescription">图标</string>
+
+    <!-- ==================手机防盗功能======================= -->
+
+    <string name="lost_protected">手机防盗</string>
+    <string name="setUpGuideDevide_line">我是一条分割线</string>
+    <!-- 设置向导 -->
+    <string name="setUpGuide1">设置向导1/4</string>
+    <string name="setUpGuide2">设置向导2/4</string>
+    <string name="setUpGuide3">设置向导3/4</string>
+    <string name="setUpGuide4">设置向导4/4</string>
+    <string name="setupguide1_tv_title">1.欢迎使用手机防盗</string>
+    <string name="setupguide1_tv_content_title">您的手机卫士：</string>
+    <string name="setupguide1_tv_content_1">SIM卡变更报警</string>
+    <string name="setupguide1_tv_content_2">GPS追踪</string>
+    <string name="setupguide1_tv_content_3">远程销毁数据</string>
+    <string name="setupguide1_tv_content_4">远程锁屏</string>
+    <string name="setupguide2_tv_title">2.手机卡绑定</string>
+    <string name="setupguide2_tv_content_title">如果SIM卡绑定，\n下次重启手机发现SIM卡变更会发送报警短信</string>
+    <string name="setupguide2_btn_content">绑定</string>
+    <string name="setupguide2_cb_content">没有绑定</string>
+    <string name="setupguide2_cb_content_on">已经绑定</string>
+    <string name="setupguide3_tv_title">3.设置安全号码</string>
+    <string name="setupguide3_tv_content_title">SIM卡更换后会将报警短信发送到该号码上</string>
+    <string name="setupguide3_et_hint">请输入或者选择报警的号码</string>
+    <string name="setupguide3_btn_content">选择联系人</string>
+    <string name="setupguide4_tv_title">4.恭喜你设置完成</string>
+    <string name="setupguide4_tv_content_title">强烈建议你开启保护</string>
+    <string name="setupguide4_cb_content_off">保护没有开启</string>
+    <string name="setupguide4_cb_content_on">保护开启</string>
+
+    <!-- 选择联系人 -->
+    <string name="selectContact">选择联系人</string>
+
+    <!-- 手机防盗功能 -->
+    <string name="first_entry_dialog_tv_title">设置密码</string>
+    <string name="first_entry_dialog_tv_setPwd">设置手机防盗的密码</string>
+    <string name="first_entry_dialog_tv_reSetPwd">再次输入 密码</string>
+    <string name="normal_entry_dialog_tv_title">登录界面</string>
+    <string name="normal_entry_dialog_tv_pwd">请输入密码</string>
+    <string name="lost_protect_btn_reSetup">重新进入设置向导</string>
+
+    <!-- ==================高级工具功能======================= -->
+    <string name="atoolsTitle">高级工具</string>
+    <string name="queryPhoneNumber">归属地查询</string>
+    <string name="atools_tv_text">手机归属地查询</string>
+    <string name="atools_tv_text_service">设置手机归属地服务</string>
+    <string name="atools_tv_text_service_off">手机归属地服务未开启</string>
+    <string name="atools_tv_text_service_on">手机归属地服务已开启</string>
+    <string name="atools_tv_locationStyle">设置手机归属地显示风格</string>
+    <string name="atools_tv_changeLocation">设置手机归属地显示的位置</string>
+    <string name="atools_drag_view_tv_title">按住绿色条拖动归属地显示的位置</string>
+    <string name="atools_queryPhone_btn_context">归属地查询</string>
+    <string name="atools_queryPhone_tv_context">手机归属地为：</string>
+    <string name="atools_tv_sms_backup">短信备份</string>
+    <string name="atools_tv_sms_restore">短信还原</string>
+
+    <!-- ==================通讯卫士功能======================= -->
+    <string name="callAndSmsSecurity">通讯卫士</string>
+    <string name="call_sms_security_tv_title">黑名单管理</string>
+    
+    <!-- ==================软件管理功能======================= -->
+    <string name="app_manager_tv_title">软件管理</string>
+    <string name="app_manager_tv_progressBarDesc">正在获取系统软件信息</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/title_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 设置向导中大标题 -->
+    <style name="setupGuide_tv_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/setupGuide</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 设置向导中的分割横线 -->
+    <style name="setupGuide_iv_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:background">@drawable/devide_line</item>
+        <item name="android:contentDescription">@string/setUpGuideDevide_line</item>
+    </style>
+    <!-- 设置向导中正文的标题 -->
+    <style name="setupGuide_tv_content">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/setupGuide</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 设置向导中小星星 -->
+    <style name="setupGuide_iv_start">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@android:drawable/btn_star_big_on</item>
+    </style>
+    <!-- 设置向导中 执行哪一步的 小点点 -->
+    <style name="setupGuide_iv_presence_online">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@android:drawable/presence_online</item>
+    </style>
+
+    <style name="setupGuide_iv_presence_invisible">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@android:drawable/presence_invisible</item>
+    </style>
+    
+    <!-- 保护中 -->
+    <style name="lostProtect_prvision_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

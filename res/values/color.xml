@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主屏幕的背景颜色 -->
+    <color name="mainscreen_backgroundcolor">#ff404040</color>
+    <color name="mainscreen_item_textColor">#ffd0d0d0</color>
+    <!-- 设置向导中文字的颜色 -->
+    <color name="setupGuide">#32CD32</color>
+    <color name="first_entry_dialog_editTextBackground">#ffc8c8c8</color>
+    <!-- 白色的分割线 -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- 红色 -->
+    <color name="red">#FF6A6A</color>
+    <!-- 绿色 -->
+    <color name="green">#43CD80</color>
+
+</resources>

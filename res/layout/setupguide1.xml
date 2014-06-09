@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainscreen_backgroundcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/setupGuide_tv_text"
+        android:text="@string/setupguide1_tv_title" />
+
+    <ImageView style="@style/setupGuide_iv_line" />
+
+    <TextView
+        style="@style/setupGuide_tv_content"
+        android:layout_marginTop="8dip"
+        android:text="@string/setupguide1_tv_content_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/setupGuide_iv_start" />
+
+        <TextView
+            style="@style/setupGuide_tv_content"
+            android:paddingTop="5dip"
+            android:text="@string/setupguide1_tv_content_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/setupGuide_iv_start" />
+
+        <TextView
+            style="@style/setupGuide_tv_content"
+            android:paddingTop="5dip"
+            android:text="@string/setupguide1_tv_content_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/setupGuide_iv_start" />
+
+        <TextView
+            style="@style/setupGuide_tv_content"
+            android:paddingTop="5dip"
+            android:text="@string/setupguide1_tv_content_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/setupGuide_iv_start" />
+
+        <TextView
+            style="@style/setupGuide_tv_content"
+            android:paddingTop="5dip"
+            android:text="@string/setupguide1_tv_content_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/setupGuide_iv_presence_online" />
+
+        <ImageView style="@style/setupGuide_iv_presence_invisible" />
+
+        <ImageView style="@style/setupGuide_iv_presence_invisible" />
+
+        <ImageView style="@style/setupGuide_iv_presence_invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/setup1" />
+
+        <Button
+            android:id="@+id/setupguide1_btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/next"
+            android:text="@string/button_next" />
+    </RelativeLayout>
+
+</LinearLayout>

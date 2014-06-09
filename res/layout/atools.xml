@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainscreen_backgroundcolor"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/atools_btn_phoneQuery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/atools_tv_text"
+        android:textSize="24sp" />
+
+    <View style="@style/lostProtect_prvision_line" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/atools_cb_phoneService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:layout_width="240dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/atools_tv_text_service"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atools_tv_phoneService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atools_tv_text_service_off"
+                android:textColor="@color/red" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View style="@style/lostProtect_prvision_line" />
+
+    <TextView
+        android:id="@+id/atools_tv_locationStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/atools_tv_locationStyle"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <View style="@style/lostProtect_prvision_line" />
+
+    <TextView
+        android:id="@+id/atools_tv_changeLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/atools_tv_changeLocation"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <View style="@style/lostProtect_prvision_line" />
+
+    <TextView
+        android:id="@+id/atools_tv_sms_backup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/atools_tv_sms_backup"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/atools_tv_sms_restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="@string/atools_tv_sms_restore"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

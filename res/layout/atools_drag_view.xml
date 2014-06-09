@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/atools_drag_view_iv_drag"
+        android:layout_width="160dip"
+        android:layout_height="60dip"
+        android:background="@drawable/call_locate_green" />
+
+    <TextView
+        android:id="@+id/atools_drag_view_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dip"
+        android:text="@string/atools_drag_view_tv_title" />
+
+</RelativeLayout>

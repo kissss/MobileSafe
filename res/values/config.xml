@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 检查软件是否更新的URL -->
+    <string name="updateUrl">http://192.168.1.70/res/mobileSafe_version.xml</string>
+    <!-- 下载手机归属地的数据库 -->
+    <string name="addressDBUrl">http://192.168.1.70/res/address.db</string>
+</resources>
